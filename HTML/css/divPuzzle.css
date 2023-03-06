@@ -1,0 +1,140 @@
+h1 {
+    width: 400px;
+    margin: 0 auto;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.divPuzzle {
+    width: 400px;
+    margin: 0 auto;
+}
+.header {
+    height: 100px;
+    background-color: #141f40;
+}
+.main_left {
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: left;
+}
+.main_right {
+    width: 250px;
+    height: 250px;
+    float: right;
+}
+.main_right_up {
+    width: 250px;
+    height: 150px;
+}
+.main_right_up_left {
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+.main_right_up_left_1 {
+    height: 50px;
+    background-color: #dbd400;
+}
+.main_right_up_left_2 {
+    height: 100px;
+    background-color: #0093b7;
+}
+.main_right_up_right {
+    width: 100px;
+    height: 150px;
+    background-color: #ff9e6b;
+    float: right;
+}
+.main_right_low {
+    width: 250px;
+    height: 100px;
+    background-color: #8c2727;
+}
+.footer {
+    height: 100px;
+    background-color: #d98d30;
+}
+
+/*レスポンシブ 最大767px*/
+@media screen and (max-width: 767px) {
+    h1 {
+    width: 300px;
+    }
+    .divPuzzle {
+        width: 300px;
+    }
+    .main_left {
+        width: 100px;
+    }
+    .main_right {
+        width: 200px;
+    }
+    .main_right_up {
+        width: 200px;
+    }
+    .main_right_up_left {
+        width: 125px;
+    }
+    .main_right_up_left_1 {
+        height: 50px;
+    }
+    .main_right_up_left_2 {
+        height: 100px;
+    }
+    .main_right_up_right {
+        width: 75px;
+    }
+    .main_right_low {
+        width: 200px
+    }
+}
+/*レスポンシブ 最大767px ここまで*/
+
+@media screen and (max-width: 479px) {
+    h1 {
+        width: 150px;
+        }
+        .divPuzzle {
+            width: 150px;
+        }
+        .main {
+            height: 450px;
+        }
+        .main_left {
+            width: 150px;
+            height: 100px;
+            float: none;
+        }
+        .main_right {
+            width: 150px;
+            height: 250px;
+            float: none;
+        }
+        .main_right_up {
+            width: 150px;
+            height:250px;
+        }
+        .main_right_up_left {
+            width: 150px;
+            float: none;
+        }
+        .main_right_up_left_1 {
+            height: 50px;
+        }
+        .main_right_up_left_2 {
+            height: 100px;
+        }
+        .main_right_up_right {
+            width: 150px;
+            height: 100px;
+            float: none;
+        }
+        .main_right_low {
+            width: 150px;
+            height: 100px;
+        }
+}    
