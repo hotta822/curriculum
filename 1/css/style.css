@@ -1,0 +1,128 @@
+.clearfix::after {
+   content: "";
+   display: block;
+   clear: both;
+}
+h1 {
+    width: 400px;
+    margin: 0 auto;
+}
+.divPuzzle{
+    width: 400px;
+    margin: 0 auto;
+}
+.header {
+    height: 100px;
+    background-color: #141f40;
+    position: relative;
+}
+.items {
+    width: 160px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    right: 20px;
+    top:20px;
+}
+.box1 {
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    float: left;
+    margin: 10px;
+}
+.box2 {
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    float: left;
+    margin: 10px 0px;
+}
+.box3 {
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    float: left;
+    margin: 10px;
+}
+.left {
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: left;
+}
+.right {
+    width: 250px;
+    height: 250px;
+    float: right;
+    background-color: #8c2727;
+    position: relative;
+}
+.main_right_boxes {
+    height: 170px;
+    width: 150px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+}
+.box {
+    width: 150px;
+    height: 50px;
+    background-color:  #ff863f;
+    float: left;
+    border: 5px solid;
+    border-color: white;
+    box-sizing: border-box;
+   
+}
+.box:nth-child(2){
+    margin: 10px 0px;
+} /*疑似クラス試し*/
+
+.footer {
+    height: 100px;
+    background-color: #d98d30;
+}
+@media screen and (max-width: 479px) {
+    h1 {
+        width: 200px;
+    }
+    .divPuzzle{
+        width: 200px;
+    }
+    .header {
+        height: 200px;
+    }
+    .items {
+        width: 60px;
+        height: 160px;
+        right: 70px;
+    }
+    .box2 {
+        margin: 0px 10px;
+    }
+    .left {
+        width: auto;
+        height: 100px;
+        float: none;
+    }
+    .right {
+        width: 200px;
+        height: 180px;
+        float: none;
+    }
+    .main_right_boxes {
+        height: 170px;
+        width: 150px;
+        left: 30px;
+        top: 20px;
+    }
+    .box {
+        width: 140px;
+        height: 40px;
+       
+    }
+    .box:nth-child(2){
+        margin: 10px 0px;
+    } /*疑似クラス試し*/
+}
